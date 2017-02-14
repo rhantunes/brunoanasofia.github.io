@@ -1,0 +1,115 @@
+.submarino { 
+    position: absolute; 
+    top:0;
+    left:0; 
+    z-index:1010; 
+    width:100%; 
+    height:100%;
+    overflow: hidden;
+}
+
+.submarino svg:first-child{
+    -webkit-animation: submergir 20s linear infinite;
+            animation: submergir 20s linear infinite;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    position: relative;
+    
+}
+
+@keyframes submergir {
+   0% {
+        left: -10%;        
+    }
+    10% {
+        left: 5%;                
+    }
+    20%{
+        transform: rotateY(0deg);
+        left: 50%;         
+    }
+    30%{
+        left: 50%;        
+    }
+    40%{
+        left: 50%;
+        transform: rotateY(180deg);       
+    }
+    50%{
+        top: 20%;
+        left: 50%;    
+        transform: rotateY(180deg);
+    }
+    60%{
+        top: 10%;
+        left: 50%;          
+        transform: rotateY(180deg);
+    }
+    70%{
+        top: 10%;
+        left: 20%;
+        transform: rotateY(180deg);
+    }
+    70%{     
+        left: 20%;  
+        transform: rotateY(0deg);
+    }
+    80%{     
+        left: 20%;  
+    }
+    90%{
+        left: 50%;          
+    }
+    100%{
+        left: 120%;          
+    }
+   
+}
+@-webkit-keyframes submergir {
+    0% {
+        left: -10%;        
+    }
+    10% {
+        left: 5%;                
+    }
+    20%{
+        transform: rotateY(0deg);
+        left: 50%;         
+    }
+    30%{
+        left: 50%;        
+    }
+    40%{
+        left: 50%;
+        transform: rotateY(180deg);       
+    }
+    50%{
+        top: 20%;
+        left: 50%;    
+        transform: rotateY(180deg);
+    }
+    60%{
+        top: 10%;
+        left: 50%;          
+        transform: rotateY(180deg);
+    }
+    70%{
+        top: 10%;
+        left: 20%;
+        transform: rotateY(180deg);
+    }
+    70%{     
+        left: 20%;  
+        transform: rotateY(0deg);
+    }
+    80%{     
+        left: 20%;  
+    }
+    90%{
+        left: 50%;          
+    }
+    100%{
+        left: 120%;          
+    }
+}
+

@@ -1,0 +1,113 @@
+.aviao{
+    position: absolute; 
+    top:0px;
+    left:50%; 
+    z-index:999; 
+    width:200px; 
+    height:100%;
+    overflow: hidden;
+}
+
+.aviao svg{
+    -webkit-animation: voa 32s linear infinite;
+            animation: voa 32s linear infinite;
+    -webkit-animation-direction: reverse;
+            animation-direction: reverse;
+    position: relative;
+}
+
+@keyframes voa {
+    from {
+        top: -200px;
+    }
+    to {
+        top: 700px;        
+    }
+}
+@-webkit-keyframes voa {
+    from {
+        top: -200px;
+    }
+    to {
+        top: 700px;        
+    }
+}
+
+
+.aviao2{
+    position: absolute; 
+    top:0px;
+    left:20%; 
+    z-index:1011; 
+    width:200px; 
+    height:100%;
+    overflow: hidden;    
+}
+
+.aviao2 svg{
+    -webkit-animation: voa2 30s linear infinite;
+            animation: voa2 30s linear infinite;
+    -webkit-animation-direction: reverse;
+            animation-direction: reverse;
+    -webkit-transform: scale(2, 2);
+            transform: scale(2, 2);
+    position: relative;
+    -webkit-transition-delay: 30s;
+    transition-delay: 30s;
+}
+
+@keyframes voa2 {
+    from {
+        top: -4000px;
+    }
+    to {
+        top: 700px;        
+    }
+}
+@-webkit-keyframes voa2 {
+    from {
+        top: -4000px;
+    }
+    to {
+        top: 700px;        
+    }
+}
+
+
+
+.aviao3{
+    position: absolute; 
+    top:0px;
+    left:0px; 
+    z-index:1010; 
+    width:100%; 
+    height:100%;
+    overflow: hidden;    
+}
+
+.aviao3 svg{
+    -webkit-animation: voa3 30s linear infinite;
+            animation: voa3 30s linear infinite;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    /*-webkit-transform: scale(2, 2);
+            transform: scale(2, 2);*/
+    -webkit-animation-delay: 80s;
+    animation-delay: 80s;
+    position: relative;    
+    fill: lightblue;
+    opacity: 1;
+}
+
+@keyframes voa3 {
+    0% {transform: rotate(190deg); width: 20%; height: 20%;left:0px;}
+    80% {transform: rotate(195deg); width: 20%; height: 20%;top:1000px; left:-100px; }
+    81% {transform: rotate(45deg); width: 20%; height: 20%;} 
+    100% {transform: rotate(45deg); width: 50%; height: 50%; top:-200px; left:800px;}
+}
+@-webkit-keyframes voa3 {
+    0% {transform: rotate(190deg); width: 20%; height: 20%;left:0px;}
+    80% {transform: rotate(195deg); width: 20%; height: 20%;top:1000px; left:-100px; }
+    81% {transform: rotate(45deg); width: 20%; height: 20%;} 
+    100% {transform: rotate(45deg); width: 50%; height: 50%; top:-200px; left:800px;}
+}

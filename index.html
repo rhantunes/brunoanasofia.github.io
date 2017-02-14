@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>BrunoRAmaral</title>
+    <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bruno RAmaral </title>
+    <meta name="application-name" content="Bruno RAmaral" />
+    <meta name="author" content="Bruno Amaral" />
+    <meta name="distributor" content="" />
+    <meta name="robots" content="All" />
+    <meta name="description" content="Site pessoal de Bruno Amaral " />
+    <meta name="keywords" content="webdesign, webdeveloper, front-end, river raid, megamania, star trek, developer, angularjs, css3, html5, javascript, nodejs, c#, php, sql server, mysql, oracle" />
+    <meta name="generator" content="META Tag Generator: http://toolswebtop.com/seo/metatag" />
+    <meta name="rating" content="General" />
+    <meta name="dcterms.title" content="Bruno RAmaral" />
+    <meta name="dcterms.contributor" content="Bruno Amaral" />
+    <meta name="dcterms.creator" content="Bruno Amaral" />
+    <meta name="dcterms.publisher" content="Bruno Amaral" />
+    <meta name="dcterms.description" content="Site pessoal de Bruno Amaral " />
+    <meta name="dcterms.rights" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Bruno RAmaral" />
+    <meta property="og:description" content="Site pessoal de Bruno Amaral " />
+    <meta property="twitter:title" content="Bruno RAmaral" />
+    <meta property="twitter:description" content="Site pessoal de Bruno Amaral " />
+
+    <link rel="shortcut icon" href="imagens/favicon.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/navio.css">
+    <link rel="stylesheet" href="css/casas.css">
+    <link rel="stylesheet" href="css/nuvens.css">
+    <link rel="stylesheet" href="css/aviao.css">    
+    <link rel="stylesheet" href="css/arvoreseanimais.css">    
+    <link rel="stylesheet" href="css/megamania.css">    
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/startrek.css">
+    <link rel="stylesheet" href="css/submarino.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Shadows+Into+Light">   
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</head>
+<body>
+    <script>
+        $(document).ready(function (){
+            $(".sobre").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#sobre").offset().top
+                }, 2000);
+            });
+        });
+        
+        $(document).ready(function (){
+            $(".home").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#home").offset().top
+                }, 2000);
+            });
+        });
+        
+        $(document).ready(function (){
+            $(".portfolio").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#portfolio").offset().top
+                }, 2000);
+            });
+        });        
+    
+        $(document).ready(function (){
+            $(".contatos").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#contatos").offset().top
+                }, 2000);
+            });
+        });        
+        
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip(); 
+        });        
+    </script>
+    
+    <!-- RIVER RAID -->
+    <div id="home" style="width:100%; height:100%; margin:auto; position: relative;">
+        
+        <div class="banner"><a href="#" id="features">Beta 1.0</a></div>
+        
+        <!-- INICIO FEATURES --> 
+        <div class="features list-group">
+            <span style="float:right;"><a href="#features" class="fechar"> X </a></span>
+            <p>Versão: 1.0 - 13/02/2018</p>
+            <p>Bugs encontrados até agora:</p>
+            <ul>
+                <li class="list-group-item list-group-item-success">Menu pulando em iOs e Android</li>
+            </ul>
+            
+            <p>Próximas features:</p>
+            <ul>
+                <li class="list-group-item list-group-item-success">SeaQuest: Animação de onda</li>
+                <li class="list-group-item list-group-item-info">SeaQuest: Mergulhador e Tubarões</li>
+                <li class="list-group-item list-group-item-success">SeaQuest: Animação da turbina</li>
+                <li class="list-group-item list-group-item-success">Star Trek: Animação de hiperespaço</li>
+                <li class="list-group-item list-group-item-info">Star Trek: Nave Romulana "Scimitar" </li>
+                <li class="list-group-item list-group-item-success">River Raid: Carros e galinha do Freeway</li>
+                <li class="list-group-item list-group-item-info">River Raid: Animar cavalos</li>
+                <li class="list-group-item list-group-item-success">River Raid: Tanque de combustível</li>
+                <li class="list-group-item list-group-item-success">Megamania: Naves</li>
+            </ul>
+        </div>  
+        <!-- FIM FEATURES --> 
+        
+        <div class="capadosite"><img src="imagens/brunoramaral.png"></div>
+        
+        <nav class="menu-home">
+            <ul>
+                <li><a href="#" class="home fa fa-home fa-2x black-tooltip activeHome" data-toggle="tooltip" title="Principal" data-placement="bottom"></a></li>
+                <li><a href="#" class="portfolio fa fa-briefcase fa-2x black-tooltip" data-toggle="tooltip" title="Portfolio" data-placement="bottom"></a></li>
+                <li><a href="#" class="sobre fa fa-user fa-2x black-tooltip" data-toggle="tooltip" title="Sobre mim" data-placement="bottom"></a></li>                
+                <li><a href="#" class="contatos fa fa-address-card fa-2x black-tooltip" data-toggle="tooltip" title="Contatos" data-placement="bottom"></a></li>
+            </ul>
+        </nav>
+        
+        
+        <!-- INICIO RIO -->
+        <svg width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none" style="position:absolute;top:0px;left:0px;" id="rio">
+            <g>
+                <rect x="25%" y="0" width="50%" height="20%" style="fill:#3254D0;stroke:#3254D0;stroke-width:1;opacity:1" />
+                <rect x="27%" y="20%" width="46%" height="1%" style="fill:#3254D0;stroke:#3254D0;stroke-width:1;opacity:1" />
+                <rect x="29%" y="21%" width="42%" height="1%" style="fill:#3254D0;stroke:#3254D0;stroke-width:1;opacity:1" />
+                <rect x="31%" y="22%" width="38%" height="1%" style="fill:#3254D0;stroke:#3254D0;stroke-width:1;opacity:1" />
+                <rect x="33%" y="23%" width="34%" height="1%" style="fill:#3254D0;stroke:#3254D0;stroke-width:1;opacity:1" />
+                <rect x="35%" y="24%" width="30%" height="1%" style="fill:#3254D0;stroke:#3254D0;stroke-width:1;opacity:1" />
+                <rect x="37%" y="25%" width="26%" height="1%" style="fill:#3254D0;stroke:#3254D0;stroke-width:1;opacity:1" />
+                
+                <rect x="39%" y="26%" width="22%" height="50%" style="fill:#3254D0;stroke:#3254D0;stroke-width:1;opacity:1" />
+                
+                <rect x="37%" y="77%" width="26%" height="1%" style="fill:#3254D0;stroke:#3254D0;stroke-width:1;opacity:1" />
+                <rect x="35%" y="78%" width="30%" height="1%" style="fill:#3254D0;stroke:#3254D0;stroke-width:1;opacity:1" />
+                <rect x="33%" y="79%" width="34%" height="1%" style="fill:#3254D0;stroke:#3254D0;stroke-width:1;opacity:1" />                
+                <rect x="31%" y="80%" width="38%" height="1%" style="fill:#3254D0;stroke:#3254D0;stroke-width:1;opacity:1" />
+                <rect x="29%" y="81%" width="42%" height="1%" style="fill:#3254D0;stroke:#3254D0;stroke-width:1;opacity:1" />
+                <rect x="27%" y="82%" width="46%" height="1%" style="fill:#3254D0;stroke:#3254D0;stroke-width:1;opacity:1" />
+                <rect x="0" y="83" width="100%" height="20%" style="fill:#3254D0;stroke:#3254D0;stroke-width:1;opacity:1" />                                
+            </g>            
+        </svg>
+        <!-- FIM RIO -->
+        
+        <!-- INICIO PONTE -->
+        <svg width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none" style="position:absolute;top:0px;left:0px;" id="ponte">
+            <g>
+                <rect x="41%" y="40%" width="3.5%" height="1%" style="fill:#610A01;stroke-width:0;opacity:1" />
+                <rect x="55%" y="40%" width="3.5%" height="1%" style="fill:#610A01;stroke-width:0;opacity:1" />
+                <rect x="38.5%" y="40.7%" width="23%" height="1%" style="fill:#610A01;stroke-width:0;opacity:1" />
+                
+                <rect x="38.5%" y="41.7%" width="23%" height="1.8%" style="fill:#7C6600;stroke-width:0;opacity:1" />
+                <rect x="38.5%" y="43.5%" width="23%" height="1.8%" style="fill:#634E00;stroke-width:0;opacity:1" />
+                <rect x="38.5%" y="45.3%" width="23%" height="1.8%" style="fill:#7C6600;stroke-width:0;opacity:1" />
+                <rect x="38.5%" y="47.1%" width="23%" height="1.9%" style="fill:#634E00;stroke-width:0;opacity:1" />
+                
+                <rect x="38.5%" y="49.1%" width="23%" height="1%" style="fill:#B29724;stroke-width:0;opacity:1" />
+                
+                <rect x="38.5%" y="50.1%" width="23%" height="1.9%" style="fill:#634E00;stroke-width:0;opacity:1" />
+                <rect x="38.5%" y="52%" width="23%" height="1.8%" style="fill:#7C6600;stroke-width:0;opacity:1" />
+                <rect x="38.5%" y="53.8%" width="23%" height="1.8%" style="fill:#634E00;stroke-width:0;opacity:1" />
+                <rect x="38.5%" y="55.6%" width="23%" height="1.8%" style="fill:#7C6600;stroke-width:0;opacity:1" />
+                
+                <rect x="38.5%" y="57.4%" width="23%" height="1%" style="fill:#610A01;stroke-width:0;opacity:1" />
+                <rect x="55%" y="58.1%" width="3.5%" height="1%" style="fill:#610A01;stroke-width:0;opacity:1" />
+                <rect x="41%" y="58.1%" width="3.5%" height="1%" style="fill:#610A01;stroke-width:0;opacity:1" />
+            </g>            
+        </svg>
+        <!-- INICIO PONTE -->
+        
+        <!-- INICIO BACKGROUND GRAMA-->
+        <div style="background-color:#33500D; width:100%; height:38%;"></div>
+        
+        <div style="background-color:#696671; width:100%; height:3.5%;"></div>
+        <div style="background-color:#AAA8AD; width:100%; height:7.5%;"></div>
+        
+        <div style="background-color:#DDC139; width:100%; height:1%;"></div>
+        
+        <div style="background-color:#AAA8AD; width:100%; height:7.5%;"></div>
+        <div style="background-color:#696671; width:100%; height:3.5%;"></div>
+        
+        <div style="background-color:#6F8B34; width:100%; height:39%;"></div>
+        <!-- FIM BACKGROUND GRAMA-->
+        
+        <!-- INICIO NAVIO -->
+        <div class="navio">
+            <svg width="15%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none" style="position:absolute;top:0px;left:0px;">
+                <g>
+                    <rect x="50%" y="40%" width="10%" height="11%" style="fill:black;stroke-width:0;opacity:1" />
+                    <rect x="50%" y="50%" width="20%" height="6%" style="fill:black;stroke-width:0;opacity:1" />
+                    <rect x="50%" y="56%" width="35%" height="6%" style="fill:black;stroke-width:0;opacity:1" />
+                    <rect x="40%" y="57%" width="37%" height="5%" style="fill:black;stroke-width:0;opacity:1" />
+                    <rect x="19%" y="62%" width="72%" height="7%" style="fill:#8B1305;stroke-width:0;opacity:1" />
+                    <rect x="30%" y="69%" width="61%" height="4%" style="fill:#8B1305;stroke-width:0;opacity:1" />
+                    <rect x="35%" y="73%" width="56%" height="5%" style="fill:#5DBED1;stroke-width:0;opacity:1" />
+                    <rect x="35%" y="77%" width="54%" height="5%" style="fill:#5DBED1;stroke-width:0;opacity:1" />
+                </g>
+            </svg>
+        </div>
+        <!-- FIM NAVIO -->
+                
+        <!-- INICIO AVIAO -->
+        <div class="aviao">
+            <svg width="100%" height="15%" viewBox="0 0 100 100" preserveAspectRatio="none" style="position:absolute;top:-200px;left:0px;">
+                <g>
+                    <rect x="46%" y="20%" width="3.8%" height="52%" style="fill:#FFFF67;stroke-width:0;opacity:1" />
+                    <rect x="42%" y="30%" width="12%" height="4%" style="fill:#FFFF67;stroke-width:0;opacity:1" />
+                    <rect x="38%" y="33%" width="20%" height="4%" style="fill:#FFFF67;stroke-width:0;opacity:1" />
+                    <rect x="34%" y="36%" width="28%" height="8%" style="fill:#FFFF67;stroke-width:0;opacity:1" />
+                    <rect x="34%" y="43%" width="4%" height="8%" style="fill:#FFFF67;stroke-width:0;opacity:1" />
+                    <rect x="38%" y="42%" width="4%" height="6%" style="fill:#FFFF67;stroke-width:0;opacity:1" />
+                    <rect x="54%" y="42%" width="4%" height="6%" style="fill:#FFFF67;stroke-width:0;opacity:1" />
+                    <rect x="58%" y="43%" width="4%" height="8%" style="fill:#FFFF67;stroke-width:0;opacity:1" />
+                    <rect x="42%" y="59%" width="12%" height="8%" style="fill:#FFFF67;stroke-width:0;opacity:1" />
+                    <rect x="38%" y="63%" width="4%" height="8%" style="fill:#FFFF67;stroke-width:0;opacity:1" />
+                    <rect x="54%" y="63%" width="4%" height="8%" style="fill:#FFFF67;stroke-width:0;opacity:1" />
+                </g>
+            </svg>                        
+        </div>
+        
+        <div class="aviao2">
+            <svg width="100%" height="15%" viewBox="0 0 100 100" preserveAspectRatio="none" style="position:absolute;top:-200px;left:0px;">
+                <g>
+                    <rect x="46%" y="20%" width="3.8%" height="52%" style="fill:#FFFFFF;stroke-width:0;opacity:1" />
+                    <rect x="42%" y="30%" width="12%" height="4%" style="fill:#FFFFFF;stroke-width:0;opacity:1" />
+                    <rect x="38%" y="33%" width="20%" height="4%" style="fill:#FFFFFF;stroke-width:0;opacity:1" />
+                    <rect x="34%" y="36%" width="28%" height="8%" style="fill:#FFFFFF;stroke-width:0;opacity:1" />
+                    <rect x="34%" y="43%" width="4%" height="8%" style="fill:#FFFFFF;stroke-width:0;opacity:1" />
+                    <rect x="38%" y="42%" width="4%" height="6%" style="fill:#FFFFFF;stroke-width:0;opacity:1" />
+                    <rect x="54%" y="42%" width="4%" height="6%" style="fill:#FFFFFF;stroke-width:0;opacity:1" />
+                    <rect x="58%" y="43%" width="4%" height="8%" style="fill:#FFFFFF;stroke-width:0;opacity:1" />
+                    <rect x="42%" y="59%" width="12%" height="8%" style="fill:#FFFFFF;stroke-width:0;opacity:1" />
+                    <rect x="38%" y="63%" width="4%" height="8%" style="fill:#FFFFFF;stroke-width:0;opacity:1" />
+                    <rect x="54%" y="63%" width="4%" height="8%" style="fill:#FFFFFF;stroke-width:0;opacity:1" />
+                </g>
+            </svg>                        
+        </div>
+        
+        <div class="aviao3">
+            <svg width="20%" height="20%" viewBox="0 0 100 100" preserveAspectRatio="none" style="position:absolute;top:-150px;left:-150px;">
+                <g>
+                    <rect x="46%" y="20%" width="3.8%" height="52%"/>
+                    <rect x="42%" y="30%" width="12%" height="4%"/>
+                    <rect x="38%" y="33%" width="20%" height="4%"/>
+                    <rect x="34%" y="36%" width="28%" height="8%"/>
+                    <rect x="34%" y="43%" width="4%" height="8%"/>
+                    <rect x="38%" y="42%" width="4%" height="6%"/>
+                    <rect x="54%" y="42%" width="4%" height="6%"/>
+                    <rect x="58%" y="43%" width="4%" height="8%"/>
+                    <rect x="42%" y="59%" width="12%" height="8%"/>
+                    <rect x="38%" y="63%" width="4%" height="8%"/>
+                    <rect x="54%" y="63%" width="4%" height="8%"/>
+                </g>
+            </svg>                        
+        </div>
+        <!-- FIM AVIAO -->
+        
+        <div class="nuvem1">
+            <div class="nuvem1 nuvem1a"></div>
+        </div>
+        
+        <div class="nuvem2">
+            <div class="nuvem2 nuvem2a"></div>
+        </div>
+        
+        <div class="nuvem3">
+            <div class="nuvem3 nuvem3a"></div>
+        </div>
+                
+        <!-- INICIO ARVORES ESQUERDA-->
+        <div class="arvores1">
+            <img src="imagens/arvore_tipo2.png">
+        </div>
+        <div class="arvores2">
+            <img src="imagens/arvore_tipo2.png">
+        </div>
+        <div class="arvores3">
+            <img src="imagens/arvore_tipo1.png">
+        </div>
+        <div class="arvores4">
+            <img src="imagens/arvore_tipo2.png">
+        </div>        
+        <div class="arvores5">
+            <img src="imagens/arvore_tipo2.png">
+        </div>        
+        <div class="arvores6">
+            <img src="imagens/arvore_tipo1.png">
+        </div>        
+        <div class="arvores7">
+            <img src="imagens/arvore_tipo1.png">
+        </div>
+        <!-- FIM ARVORES ESQUERDA-->
+        
+        <!-- INICIO ARVORES DIREITA-->
+        <div class="arvores8">
+            <img src="imagens/arvore_tipo2.png">
+        </div>
+        <div class="arvores9">
+            <img src="imagens/arvore_tipo2.png">
+        </div>
+        <div class="arvores10">
+            <img src="imagens/arvore_tipo1.png">
+        </div>
+        <div class="arvores11">
+            <img src="imagens/arvore_tipo2.png">
+        </div>        
+        <!-- FIM ARVORES DIREITA-->
+        
+        <!-- INICIO HOME -->
+        <div class="casa-principal">
+            <svg width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none" style="position:absolute;top:0px;left:0px;">
+                <g>
+                    <rect x="20%" y="0%" width="60%" height="12%" style="fill:#000000;stroke-width:0;opacity:1" />
+                    <rect x="10%" y="12%" width="80%" height="12%" style="fill:#000000;stroke-width:0;opacity:1" />
+                    <rect x="0%" y="24%" width="100%" height="12%" style="fill:#000000;stroke-width:0;opacity:1" />
+                    <rect x="0%" y="36%" width="100%" height="70%" style="fill:#FFFFFF;stroke-width:0;opacity:1" />
+                    <rect x="10%" y="50%" width="20%" height="40%" style="fill:#0C4A1C;stroke-width:0;opacity:1" />
+                    <rect x="40%" y="50%" width="20%" height="40%" style="fill:#0C4A1C;stroke-width:0;opacity:1" />
+                    <rect x="70%" y="50%" width="20%" height="40%" style="fill:#0C4A1C;stroke-width:0;opacity:1" />
+                </g>
+            </svg>                        
+        </div>
+        
+        <div class="casa-pequena">
+            <svg width="80%" height="80%" viewBox="0 0 100 100" preserveAspectRatio="none" style="position:absolute;top:0px;left:0px;">
+                <g>
+                    <rect x="20%" y="0%" width="60%" height="12%" style="fill:#000000;stroke-width:0;opacity:1" />
+                    <rect x="10%" y="12%" width="80%" height="12%" style="fill:#000000;stroke-width:0;opacity:1" />
+                    <rect x="0%" y="24%" width="100%" height="12%" style="fill:#000000;stroke-width:0;opacity:1" />
+                    <rect x="0%" y="36%" width="100%" height="70%" style="fill:#FFFFFF;stroke-width:0;opacity:1" />
+                    <rect x="10%" y="50%" width="20%" height="40%" style="fill:#0C4A1C;stroke-width:0;opacity:1" />
+                    <rect x="40%" y="50%" width="20%" height="40%" style="fill:#0C4A1C;stroke-width:0;opacity:1" />
+                    <rect x="70%" y="50%" width="20%" height="40%" style="fill:#0C4A1C;stroke-width:0;opacity:1" />
+                </g>
+            </svg>                        
+        </div>
+        
+        <div class="casa-mansao">
+            <svg width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none" style="position:absolute;top:0px;left:0px;">
+                <g>
+                    <rect x="20%" y="0%" width="60%" height="6%" style="fill:#000000;stroke-width:0;opacity:1" />
+                    <rect x="10%" y="6%" width="80%" height="6%" style="fill:#000000;stroke-width:0;opacity:1" />
+                    <rect x="0%" y="12%" width="100%" height="6%" style="fill:#000000;stroke-width:0;opacity:1" />
+                    <rect x="0%" y="18%" width="100%" height="82%" style="fill:#FFFFFF;stroke-width:0;opacity:1" />
+                    <rect x="10%" y="22%" width="20%" height="20%" style="fill:#0C4A1C;stroke-width:0;opacity:1" />
+                    <rect x="40%" y="22%" width="20%" height="20%" style="fill:#0C4A1C;stroke-width:0;opacity:1" />
+                    <rect x="70%" y="22%" width="20%" height="20%" style="fill:#0C4A1C;stroke-width:0;opacity:1" />
+                    <rect x="10%" y="46%" width="20%" height="20%" style="fill:#0C4A1C;stroke-width:0;opacity:1" />
+                    <rect x="40%" y="46%" width="20%" height="20%" style="fill:#0C4A1C;stroke-width:0;opacity:1" />
+                    <rect x="70%" y="46%" width="20%" height="20%" style="fill:#0C4A1C;stroke-width:0;opacity:1" />
+                    <rect x="10%" y="70%" width="20%" height="40%" style="fill:#0C4A1C;stroke-width:0;opacity:1" />
+                    <rect x="40%" y="75%" width="50%" height="18%" style="fill:#0C4A1C;stroke-width:0;opacity:1" />
+                </g>
+            </svg>                        
+        </div>  
+        
+         <div class="casa-cercado">
+            <svg width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none" style="position:absolute;top:0px;left:0px;">
+                <g>
+                    <!--<rect x="10%" y="90%" width="2%" height="12%" style="fill:#FFFFFF;stroke:#975951;stroke-width:1opacity:1" />
+                    <rect x="14%" y="90%" width="2%" height="12%" style="fill:#FFFFFF;stroke:#975951;stroke-width:1opacity:1" />
+                    <rect x="18%" y="90%" width="2%" height="12%" style="fill:#FFFFFF;stroke:#975951;stroke-width:1opacity:1" />
+                    <rect x="22%" y="90%" width="2%" height="12%" style="fill:#FFFFFF;stroke:#975951;stroke-width:1opacity:1" />
+                    <rect x="26%" y="90%" width="2%" height="12%" style="fill:#FFFFFF;stroke:#975951;stroke-width:1opacity:1" />
+                    <rect x="30%" y="89%" width="2%" height="12%" style="fill:#FFFFFF;stroke:#975951;stroke-width:1opacity:1" />
+                    <rect x="34%" y="89%" width="2%" height="12%" style="fill:#FFFFFF;stroke:#975951;stroke-width:1opacity:1" />
+                    <rect x="38%" y="88%" width="2%" height="12%" style="fill:#FFFFFF;stroke:#975951;stroke-width:1opacity:1" />-->
+                    <rect x="42%" y="88%" width="2%" height="12%" style="fill:#FFFFFF;stroke:#975951;stroke-width:1opacity:1" />
+                    <rect x="46%" y="87%" width="2%" height="12%" style="fill:#FFFFFF;stroke:#975951;stroke-width:1opacity:1" />
+                    <rect x="50%" y="86%" width="2%" height="12%" style="fill:#FFFFFF;stroke:#975951;stroke-width:1opacity:1" />
+                    <rect x="54%" y="86%" width="2%" height="12%" style="fill:#FFFFFF;stroke:#975951;stroke-width:1opacity:1" />
+                    <rect x="58%" y="86%" width="2%" height="12%" style="fill:#FFFFFF;stroke:#975951;stroke-width:1opacity:1" />
+                    <rect x="62%" y="85%" width="2%" height="12%" style="fill:#FFFFFF;stroke:#975951;stroke-width:1opacity:1" />
+                    <rect x="66%" y="85%" width="2%" height="12%" style="fill:#FFFFFF;stroke:#975951;stroke-width:1opacity:1" />
+                    <rect x="70%" y="84%" width="2%" height="12%" style="fill:#FFFFFF;stroke:#975951;stroke-width:1opacity:1" />
+                    <rect x="74%" y="84%" width="2%" height="12%" style="fill:#FFFFFF;stroke:#975951;stroke-width:1opacity:1" />
+                    <rect x="78%" y="83%" width="2%" height="12%" style="fill:#FFFFFF;stroke:#975951;stroke-width:1opacity:1" />
+                    <rect x="82%" y="82%" width="2%" height="12%" style="fill:#FFFFFF;stroke:#975951;stroke-width:1opacity:1" />
+                    <rect x="86%" y="81%" width="2%" height="12%" style="fill:#FFFFFF;stroke:#975951;stroke-width:1opacity:1" />
+                    <rect x="90%" y="80%" width="2%" height="12%" style="fill:#FFFFFF;stroke:#975951;stroke-width:1opacity:1" />
+                    <rect x="94%" y="79%" width="2%" height="12%" style="fill:#FFFFFF;stroke:#975951;stroke-width:1opacity:1" />
+                    <rect x="98%" y="78%" width="2%" height="12%" style="fill:#FFFFFF;stroke:#975951;stroke-width:1opacity:1" />
+                </g>
+            </svg>                        
+        </div>   
+        <!-- FIM HOME -->
+            
+        
+        <!-- INICIO ANIMAIS -->
+        <div class="cavalo"></div>
+        <div class="cavalo2"></div>
+        <!-- FIM ANIMAIS -->
+        
+        <!-- INICIO INFORMACAO -->
+        <div class="bemvindo">
+            <span>Bruno Amaral <em>MacGyver</em></span>
+            <span>Front-End Web Developer</span>
+            <span>MCTS | ITILv3 | AngularJS | NodeJS | Javascript | Bootstrap | HTML5 | CSS3</span>
+        </div>        
+        <!-- FIM INFORMAÇÃO -->        
+                
+        <div class="rodape">
+            <blockquote><p>Até aqui nos ajudou o Senhor.</p> <cite>1 Samuel 7:12</cite></blockquote>
+        </div>
+    </div>
+    <!-- RIVER RAID -->
+    
+    <!-- STAR TREK -->
+    <div id="portfolio" style="width:100%; height:100%; margin:auto; position: relative; top:0px; left:0px;">
+        
+        <nav class="menu-portfolio">
+            <ul>
+                <li><a href="#" class="home fa fa-home fa-2x blue-tooltip" data-toggle="tooltip" title="Principal" data-placement="bottom"></a></li>
+                <li><a href="#" class="portfolio fa fa-briefcase fa-2x blue-tooltip activePortfolio" data-toggle="tooltip" title="Portfolio" data-placement="bottom"></a></li>
+                <li><a href="#" class="sobre fa fa-user fa-2x blue-tooltip" data-toggle="tooltip" title="Sobre mim" data-placement="bottom"></a></li>                
+                <li><a href="#" class="contatos fa fa-address-card fa-2x blue-tooltip" data-toggle="tooltip" title="Contatos" data-placement="bottom"></a></li>
+            </ul>
+        </nav>        
+        
+        <!-- INICIO BACKGROUND ESPAÇO-->    
+        <div class="estrelas"></div>       
+        
+        <!-- INICIO ESPAÇONAVE STAR TREK -->
+        <div class="ussEnterprise"></div>        
+        <!-- FIM ESPAÇONAVE STAR TREK -->
+        
+        <!-- INICIO ESPAÇONAVE KLINGON BIRD-OF-PREY -->
+        <div class="klingonBird-of-Prey"></div>        
+        <!-- FIM ESPAÇONAVE KLINGON BIRD-OF-PREY -->
+        
+        <!-- INICIO INFORMACAO -->
+        <div class="containerPortfolio">
+            <p>Trabalhos mais recentes:</p>
+            <div class="portfolioBemVindo">            
+                <div class="portfolio">
+                    <table width="100%; border: solid 1px #FFFFFF">
+                        <tr>
+                            <td>
+                            <figure>
+                              <img src="portfolio/cob.png" alt="SIGEF - COB" width="60%">
+                              <figcaption><strong>COB </strong> <br>Manutenção do módulo de Projetos  <br> C# | SQLSERVER | BOOTSTRAP | ANGULARJS </figcaption>
+                            </figure>
+                            </td>                
+                            <td>
+                            <figure>
+                              <img src="portfolio/markline.png" alt="Markline Tintas" width="60%">
+                              <figcaption><strong>Markline </strong> <br> Trabalho freelancer <br> PHP | MYSQL | CSS | JAVASCRIPT </figcaption>
+                            </figure>
+                            </td>
+                            <td>
+                            <figure>
+                              <img src="portfolio/glpi2.png" alt="Relatório de SLA - GLPI" width="60%">
+                              <figcaption><strong>Claro </strong> <br> Integração GLPI x Portal AMX <br> C# | PHP | SQLSERVER | MYSQL </figcaption>
+                            </figure>
+                            </td>
+                        </tr>
+                    </table>                                                             
+                </div>                
+            </div>
+            <p>Ver demais trabalhos realizados no <a href="https://www.behance.net/aliancadevelopers" target="_blank" class="behance">Behance</a></p>            
+        </div>
+        <!-- FIM INFORMAÇÃO -->        
+      
+    </div>
+    <!-- STAR TREK -->
+        
+    <!-- SEAQUEST -->
+    <div id="sobre" style="width:100%; height:100%; margin:auto; position: relative; top:0px; left:0px;">
+        
+        <nav class="menu-sobre">
+            <ul>
+                <li><a href="#" class="home fa fa-home fa-2x orange-tooltip" data-toggle="tooltip" title="Principal" data-placement="bottom"></a></li>
+                <li><a href="#" class="portfolio fa fa-briefcase fa-2x orange-tooltip" data-toggle="tooltip" title="Portfolio" data-placement="bottom"></a></li>
+                <li><a href="#" class="sobre fa fa-user fa-2x orange-tooltip activeSobre" data-toggle="tooltip" title="Sobre mim" data-placement="bottom"></a></li>                
+                <li><a href="#" class="contatos fa fa-address-card fa-2x orange-tooltip" data-toggle="tooltip" title="Contatos" data-placement="bottom"></a></li>
+            </ul>
+        </nav>        
+        
+        <!-- INICIO BACKGROUND OCEANO -->
+        <div style="background-color:#2E32B8; width:100%; height:20%;"></div>
+        <div style="background-color:#4C33B5; width:100%; height:1%;"></div>
+        <div style="background-color:#7C30AE; width:100%; height:1%;"></div>
+        <div style="background-color:#A8318D; width:100%; height:1%;"></div>
+        <div style="background-color:#B63132; width:100%; height:1%;"></div>
+        <div style="background-color:#B35428; width:100%; height:1%;"></div>
+        <div style="background-color:#B35428; width:100%; height:1.2%;"></div>        
+        <div style="background-color:#0B1E58; width:100%; height:1.4%;"></div>
+        <div style="background-color:#021C8B; width:100%; height:1%;"></div>
+        
+        <div style="background-color:#193B9F; width:100%; height:1%;"></div>
+        <div style="background-color:#011C87; width:100%; height:3%;"></div>
+        <div style="background-color:#193B9F; width:100%; height:1%;"></div>
+        <div style="background-color:#011C87; width:100%; height:1%;"></div>
+        <div style="background-color:#000000; width:100%; height:1%;"></div>        
+        
+        <div style="background-color:#001C89; width:100%; height:59.4%;"></div>
+        
+        <div style="background-color:#003A3D; width:100%; height:2%;"></div>
+        <div style="background-color:#003801; width:100%; height:3%;"></div>
+        
+        <!-- FIM BACKGROUND OCEANO-->
+        
+        
+        <!-- INICIO SUBMARINO -->
+        <div class="submarino">
+            <svg width="50%" height="50%" viewBox="0 0 100 100" preserveAspectRatio="none" style="position:absolute;top:0px;left:0px;">
+                <g>
+                    <rect x="10%" y="51%" width="0.7%" height="5%" style="fill:#BEB93B;stroke:#BEB93B;stroke-width:1;opacity:1" />
+                    <rect x="11.4%" y="50%" width="0.7%" height="6%" style="fill:#BEB93B;stroke:#BEB93B;stroke-width:1;opacity:1" />
+                    <rect x="7.5%" y="54%" width="7%" height="2%" style="fill:#BEB93B;stroke:#BEB93B;stroke-width:1;opacity:1" />
+                    <rect x="6.3%" y="54.5%" width="6.5%" height="2%" style="fill:#BEB93B;stroke:#BEB93B;stroke-width:1;opacity:1" />
+                    <rect x="12.5%" y="54.5%" width="1%" height=".5%" style="fill:#001C89;stroke:#001C89;stroke-width:0;opacity:1" />                    
+                    <rect x="4.5%" y="54.7%" width="1.3%" height="1.5%" style="fill:#BEB93B;stroke:#BEB93B;stroke-width:0;opacity:1"/>
+                    <rect x="4.5%" y="57%" width="1.3%" height="1%" style="fill:#BEB93B;stroke:#BEB93B;stroke-width:0;opacity:1" />
+                    <rect x="4.5%" y="53%" width="1.3%" height="1%" style="fill:#BEB93B;stroke:#BEB93B;stroke-width:0;opacity:1" />                    
+                </g>
+            </svg>                                          
+        </div>        
+        <!-- FIM SUBMARINO -->
+                
+
+        <!-- INICIO INFORMACAO -->
+        <div class="sobreSobre">
+            <p>Nos últimos 16 anos trabalhei em diversos projetos, principalmente de Front-end. 
+             Tenho vasta experiência em HTML, CSS e Javascript. Há pelo menos dois anos comecei a trabalhar em projetos com AngularJS, Bootstrap, HTML5 e CSS3.
+             Também tenho experiência com tratamento de imagens e criação de layouts.
+             Possuo experiência em Back-End nas linguagens C#, VB.NET e recentemente, NodeJS.</p>
+        </div>        
+        <!-- FIM INFORMAÇÃO -->
+        
+    </div>
+    <!-- SEAQUEST -->    
+    
+    <!-- MEGAMANIA -->
+    <div id="contatos" style="width:100%; height:100%; margin:auto; position: relative; top:0px; left:0px;">
+        
+        <nav class="menu-contatos">
+            <ul>
+                <li><a href="#" class="home fa fa-home fa-2x blue-tooltip" data-toggle="tooltip" title="Principal" data-placement="bottom"></a></li>
+                <li><a href="#" class="portfolio fa fa-briefcase fa-2x blue-tooltip" data-toggle="tooltip" title="Portfolio" data-placement="bottom"></a></li>
+                <li><a href="#" class="sobre fa fa-user fa-2x blue-tooltip" data-toggle="tooltip" title="Sobre mim" data-placement="bottom"></a></li>                
+                <li><a href="#" class="contatos fa fa-address-card fa-2x blue-tooltip activeContatos" data-toggle="tooltip" title="Contatos" data-placement="bottom"></a></li>
+            </ul>
+        </nav>        
+        
+        <!-- INICIO BACKGROUND -->    
+        <div class="estrelas"></div>            
+        <!-- FIM BACKGROUND -->
+        
+        <!-- INICIO ESPAÇONAVE -->
+        <div class="espaconave">
+            <svg width="30%" height="70%" viewBox="0 0 100 100" preserveAspectRatio="none" style="position:absolute;top:0px;left:0px;">
+                <g>
+                    <rect x="50%" y="40%" width="1%" height="3%" style="fill:#3840B0;stroke:#3840B0;stroke-width:1;opacity:1" />
+                    <rect x="49%" y="43%" width="3%" height="3%" style="fill:#3840B0;stroke:#3840B0;stroke-width:1;opacity:1" />
+                    <rect x="48%" y="46%" width="5%" height="3%" style="fill:#3840B0;stroke:#3840B0;stroke-width:1;opacity:1" />
+                    <rect x="48%" y="46%" width="5%" height="3%" style="fill:#3840B0;stroke:#3840B0;stroke-width:1;opacity:1" />
+                    <rect x="49%" y="49%" width="3%" height="3%" style="fill:#3840B0;stroke:#3840B0;stroke-width:1;opacity:1" />
+                    <rect x="49%" y="51%" width="3%" height="3%" style="fill:#3840B0;stroke:#3840B0;stroke-width:1;opacity:1" />                    
+                    <rect x="49%" y="63%" width="3%" height="3%" style="fill:#3840B0;stroke:#3840B0;stroke-width:1;opacity:1" />
+                    <rect x="47.5%" y="66%" width="6%" height="5%" style="fill:#3840B0;stroke:#3840B0;stroke-width:1;opacity:1" />
+                    <rect x="49%" y="70%" width="3%" height="2%" style="fill:black;stroke:black;stroke-width:1;opacity:1" />
+                    <rect x="50.4%" y="55%" width="0.2%" height="19%" style="fill:#3840B0;stroke:#3840B0;stroke-width:1;opacity:1" />
+                    <rect x="54%" y="60%" width="0.1%" height="20%" style="fill:#3840B0;stroke:#3840B0;stroke-width:1;opacity:1" />
+                    <rect x="47%" y="60%" width="0.1%" height="20%" style="fill:#3840B0;stroke:#3840B0;stroke-width:1;opacity:1" />
+                </g>
+            </svg>                                          
+        </div>
+        <!-- FIM ESPAÇONAVE -->
+                                
+        <!-- INICIO INFORMACAO -->
+        <div class="sobreContatos">
+            <p>Essas são minhas redes sociais e meus principais contatos:</p>
+            
+            <ul>
+                <li><a href="http://github.com/brunoanasofia" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a></li>
+                <li><a href="http://www.behance.net/aliancadevelopers" target="_blank"><i class="fa fa-behance fa-3x" aria-hidden="true"></i></a></li>
+                <li><a href="http://br.linkedin.com/in/brunoreisamaral" target="_blank"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a></li>
+                <li><a href="http://br.pinterest.com/amaral3189/" target="_blank"><i class="fa fa-pinterest fa-3x" aria-hidden="true"></i></a></li>
+                <li><a href="http://www.facebook.com/laramasieronurb" target="_blank"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></a></li>
+            </ul>                        
+            
+            <ul>
+                <li><i class="fa fa-skype fa-2x" aria-hidden="true"></i> brunoreisamaral </li>
+                <li><i class="fa fa-envelope fa-2x" aria-hidden="true"></i> bruno.ramaral@gmail.com </li>
+            </ul>
+            
+            <ul>
+                <li><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i>  +55 (21) 97963-6721 </li>
+            </ul>
+            
+            <!--<p><a href="#features" id="features">Ver as próximas features</a></p>-->
+            
+        </div>        
+        <!-- FIM INFORMACAO -->                
+      
+    </div>
+    <!-- MEGAMANIA -->     
+    
+    <script>        
+        $( "#features" ).click(function() {
+          $( ".features" ).show( "slow", function() {
+            // Animation complete.
+          });
+        });
+        
+        $( ".fechar" ).click(function() {
+          $( ".features" ).hide( "slow", function() {
+            // Animation complete.
+          });
+        }) 
+    </script>
+      
+</body>
+</html>

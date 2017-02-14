@@ -1,0 +1,190 @@
+.espaconave { 
+    position: absolute; 
+    top:75%;
+    left:0; 
+    z-index:1010; 
+    width:100%; 
+    height:25%;
+    overflow: hidden;
+}
+
+.espaconave svg{
+    -webkit-animation: voaMega 30s linear infinite;
+            animation: voaMega 30s linear infinite;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    position: relative;
+    opacity: 0;
+}
+
+@keyframes voaMega {
+    0% {
+        top: 10%;
+        left: 20%;
+        opacity: 0;
+    }
+    2% {
+        top: 10%;
+        left: 20%;
+        opacity: 1;
+    }
+    5%{
+        top: 10%;
+        left: 50%;
+        opacity: 1;
+    }
+    10%{
+        top: 10%;
+        left: 20%;  
+        opacity: 1;
+    }
+    15%{
+        top: 10%;
+        left: 50%;  
+        opacity: 1;
+    }
+    20%{
+        top: 10%;
+        left: 20%;  
+        opacity: 1;
+    }
+    25%{
+        top: 10%;
+        left: 50%;  
+        opacity: 1;
+    }
+    30%{
+        top: 10%;
+        left: 20%;  
+        opacity: 1;
+    }
+    35%{
+        top: 10%;
+        left: 50%;  
+        opacity: 1;
+    }
+    40%{
+        top: 10%;
+        left: 20%;  
+        opacity: 1;
+    }
+    45%{
+        top: 10%;
+        left: 50%;  
+        opacity: 1;
+    }
+    50%{
+        top: 10%;
+        left: 20%;  
+        opacity: 1;
+    }
+    55%{
+        top: 10%;
+        left: 50%;  
+        opacity: 1;
+    }
+    60%{
+        top: 10%;
+        left: 20%;  
+        opacity: 1;
+    }
+    65%{
+        top: 10%;
+        left: 50%;  
+        opacity: 1;
+    }
+    66%{
+        top: 10%;
+        left: 50%;
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@-webkit-keyframes voaMega {
+    0% {
+        top: 10%;
+        left: 20%;
+        opacity: 0;
+    }
+    2% {
+        top: 10%;
+        left: 20%;
+        opacity: 1;
+    }
+    5%{
+        top: 10%;
+        left: 50%;
+        opacity: 1;
+    }
+    10%{
+        top: 10%;
+        left: 20%;  
+        opacity: 1;
+    }
+    15%{
+        top: 10%;
+        left: 50%;  
+        opacity: 1;
+    }
+    20%{
+        top: 10%;
+        left: 20%;  
+        opacity: 1;
+    }
+    25%{
+        top: 10%;
+        left: 50%;  
+        opacity: 1;
+    }
+    30%{
+        top: 10%;
+        left: 20%;  
+        opacity: 1;
+    }
+    35%{
+        top: 10%;
+        left: 50%;  
+        opacity: 1;
+    }
+    40%{
+        top: 10%;
+        left: 20%;  
+        opacity: 1;
+    }
+    45%{
+        top: 10%;
+        left: 50%;  
+        opacity: 1;
+    }
+    50%{
+        top: 10%;
+        left: 20%;  
+        opacity: 1;
+    }
+    55%{
+        top: 10%;
+        left: 50%;  
+        opacity: 1;
+    }
+    60%{
+        top: 10%;
+        left: 20%;  
+        opacity: 1;
+    }
+    65%{
+        top: 10%;
+        left: 50%;  
+        opacity: 1;
+    }
+    66%{
+        top: 10%;
+        left: 50%;
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
