@@ -317,7 +317,7 @@ body {
     line-height: 2em;
 }
 
-.erro404{
+.erro {
     width: 100%;
     position: absolute;
     top:0px;
@@ -330,7 +330,7 @@ body {
     text-align: center;
 }
 
-.erro404 span{
+.erro span{
     color: white;
     font-size: 5em;
     font-family: pixelart;
@@ -338,14 +338,14 @@ body {
     text-shadow: 2px 2px 8px #000000;
 }
 
-.erro404 span:nth-child(2){
+.erro span:nth-child(2){
     color: white;
     font-size: 2em;
     font-family: latoregular;
 }
 
-.erro404 span:last-child{
+.erro span:last-child{
     color: white;
-    font-size: 1.2em;
+    font-size: 1.6em;
     font-family: latolight;
 }
