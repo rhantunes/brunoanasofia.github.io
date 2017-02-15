@@ -301,8 +301,9 @@ body {
     width: 70%;
     height: auto;
     position: absolute;
-    top:10%;
-    left:auto;
+    top:40%;
+    left:0;
+    right: 0;
     padding-left: 5%;
     padding-right: 5%;
     margin: 0 auto;    
@@ -314,7 +315,9 @@ body {
     font-size:1.8rem;
     color: #FFFFFF;
     line-height: 2em;
-    background-color: rgba(0, 0, 0, 0.4); ;    
+    /*background-color: rgba(0, 0, 0, 0.4);*/
+    background: -webkit-linear-gradient(top,rgba(226,233,116,0.2),rgba(0,0,0,0.7));
+    background: linear-gradient(top,rgba(226,233,116,0.2),rgba(0,0,0,0.7));
 }
 
 .erro {
