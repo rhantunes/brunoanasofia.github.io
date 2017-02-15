@@ -139,7 +139,7 @@ body {
 
 .bemvindo span:nth-child(3){
     color: white;
-    font-size: 1.3em;
+    font-size: 1em;
     font-family: latolight;
 }
 
@@ -298,16 +298,15 @@ body {
 }
 
 .sobreSobre{
-    width: 100%;
+    width: 70%;
     height: auto;
     position: absolute;
     top:10%;
-    left:0px;
-    padding-left: 20%;
-    padding-right: 20%;
-    margin: auto auto;    
+    left:auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0 auto;    
     z-index: 1021;
-    padding-top: 12%;
     -webkit-align-items: center;
     align-items: center;
     text-align: center;
@@ -315,6 +314,7 @@ body {
     font-size:1.8rem;
     color: #FFFFFF;
     line-height: 2em;
+    background-color: rgba(0, 0, 0, 0.4); ;    
 }
 
 .erro {
