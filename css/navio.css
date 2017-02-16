@@ -11,24 +11,24 @@
 .navio svg{
     -webkit-animation: flutua 250s linear infinite;
             animation: flutua 250s linear infinite;
-    -webkit-animation-direction: reverse;
-            animation-direction: reverse;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
     position: relative;
 }
 
 @keyframes flutua {
     from {
-        left: -200px;
+        left: 100%;
     }
     to {
-        left: 2000px;        
+        left: 0px;        
     }
 }
 @-webkit-keyframes flutua {
     from {
-        left: -200px;
+        left: 100%;
     }
     to {
-        left: 2000px;        
+        left: 0px;        
     }
 }
