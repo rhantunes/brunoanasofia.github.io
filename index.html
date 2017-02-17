@@ -44,6 +44,7 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Shadows+Into+Light">   
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/angular.min.js"></script>
     
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -95,17 +96,23 @@
         $(document).ready(function(){
             $('[data-toggle="tooltip"]').tooltip(); 
         });        
+
+        var app = angular.module("minhaVersao", []); 
+        app.controller("versao", function($scope) {
+            $scope.versao = "1.0.7.0";
+        });
     </script>
+
     
     <!-- RIVER RAID -->
-    <div id="home" style="width:100%; height:100%; margin:auto; position: relative; overflow:hidden;">
+    <div id="home" style="width:100%; height:100%; margin:auto; position: relative; overflow:hidden;" ng-app="minhaVersao" ng-controller="versao">
         
-        <div class="banner"><a href="#" id="features">Beta 1.0.7.0</a></div>
+        <div class="banner"><a href="#" id="features">Beta {{versao}}</a></div>
         
         <!-- INICIO FEATURES --> 
         <div class="features list-group">
             <span style="float:right;"><a href="#features" class="fechar"> X </a></span>
-            <p>Versão: 1.0.6.2 - 16/02/2018</p>
+            <p>Versão: {{versao}} - 16/02/2018</p>
             <p>Bugs encontrados até agora:</p>
             <ul>
                 <li class="list-group-item list-group-item-success">Menu pulando em Android <span class="fa fa-check"></span></li>
@@ -116,17 +123,19 @@
             
             <p>Próximas features:</p>
             <ul>
-                <li class="list-group-item list-group-item-info">SeaQuest: Animação de onda</li>
-                <li class="list-group-item list-group-item-info">SeaQuest: Mergulhador e Tubarões</li>
-                <li class="list-group-item list-group-item-info">SeaQuest: Animação da turbina</li>
-                <li class="list-group-item list-group-item-info">Star Trek: Animação de hiperespaço</li>
-                <li class="list-group-item list-group-item-info">Star Trek: Nave Romulana "Scimitar" </li>
-                <li class="list-group-item list-group-item-info">River Raid: Carros e galinha do Freeway</li>
-                <li class="list-group-item list-group-item-info">River Raid: Animar cavalos</li>
-                <li class="list-group-item list-group-item-info">River Raid: Tanque de combustível</li>
+                <li class="list-group-item list-group-item-info">SeaQuest: Onda, Turbina, Mergulhador e Tubarões</li>                
+                <li class="list-group-item list-group-item-info">Star Trek: Hiperespaço e Nave Romulana "Scimitar" </li>
+                <li class="list-group-item list-group-item-info">River Raid: Freeway, Cavalos e Tanque de combustível</li>
                 <li class="list-group-item list-group-item-success">Megamania: Naves <span class="fa fa-check"></span></li>
             </ul>
+            
+            <p>Refactoring:</p>
+            <ul>
+                <li class="list-group-item list-group-item-info">Tamanho dos objetos (stretch) <span class="fa fa-cogs"></span></li>
+            </ul>
+
         </div>  
+        
         <!-- FIM FEATURES --> 
         
         <div class="capadosite"><img src="imagens/brunoramaral.png"></div>
