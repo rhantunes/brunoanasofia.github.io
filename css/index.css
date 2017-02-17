@@ -111,7 +111,7 @@ body {
     left:0px;
     margin: auto auto;    
     z-index: 1021;
-    padding-top: 27%;
+    padding-top: 36rem;
     -webkit-align-items: center;
     align-items: center;
     text-align: center;
@@ -119,7 +119,7 @@ body {
 
 .bemvindo span{
     color: white;
-    font-size: 4em;
+    font-size: 4rem;      
     font-family: pixelart; 
     display: block;
     text-shadow: 2px 2px 8px #000000;
@@ -198,8 +198,8 @@ body {
     text-align: center;
     color: #FFFFFF !important;
     font-family: latoregular;
-    line-height: 4em;
-    font-size:1.5em;
+    line-height: 5rem;
+    font-size:1.5rem;
     display: inline;    
 }
 
@@ -207,6 +207,7 @@ body {
     display: inline;
     padding: 1.5em;
     text-align: center;
+    font-size: 1.4rem
 }
 
 .features{
@@ -219,7 +220,7 @@ body {
     top:auto;
     left:auto;
     margin: auto auto;
-    z-index: 102100;
+    z-index: 999999999;
     text-align: left;
     font-family: latoregular;
     font-size:1em;
@@ -228,6 +229,7 @@ body {
     background-color: white;
     box-shadow: 2px 2px white;
     display: none;
+    overflow: scroll;
 }
 
 .containerPortfolio{
@@ -238,11 +240,15 @@ body {
     padding: 5%;
     margin: auto auto;    
     z-index: 10010;
-    padding-top: 8%;
+    padding-top: 10rem;
     font-family: latoregular;
     font-size:1.5em;
     color: #FFFFFF;
     text-align: center;
+}
+
+.portfolioBemVindo{
+    padding-top: 1.5rem;
 }
 
 .portfolio{  
@@ -298,23 +304,22 @@ body {
 }
 
 .sobreSobre{
-    width: 70%;
+    width: 90%;
     height: auto;
     position: absolute;
-    top:40%;
+    top:23rem;
     left:0;
     right: 0;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 2rem;
     margin: 0 auto;    
     z-index: 1021;
     -webkit-align-items: center;
     align-items: center;
     text-align: center;
     font-family: latoregular;
-    font-size:1.8rem;
+    font-size:1.6rem;
     color: #FFFFFF;
-    line-height: 2em;
+    line-height: 1.6em;
     /*background-color: rgba(0, 0, 0, 0.4);*/
     background: -webkit-linear-gradient(top,rgba(226,233,116,0.2),rgba(0,0,0,0.7));
     background: linear-gradient(top,rgba(226,233,116,0.2),rgba(0,0,0,0.7));
