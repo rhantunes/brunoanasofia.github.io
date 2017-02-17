@@ -9,8 +9,8 @@
 }
 
 .navio svg{
-    -webkit-animation: flutua 250s linear infinite;
-            animation: flutua 250s linear infinite;
+    -webkit-animation: flutua 200s linear infinite;
+            animation: flutua 200s linear infinite;
     -webkit-animation-direction: normal;
             animation-direction: normal;
     position: relative;
@@ -29,6 +29,6 @@
         left: 100%;
     }
     to {
-        left: 0px;        
+        left: 0p;        
     }
 }

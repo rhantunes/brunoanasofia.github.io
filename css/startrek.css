@@ -8,8 +8,8 @@
     background-image: url('../imagens/uss_enterprise.png');
     background-repeat: no-repeat;
     transform: rotate(115deg);
-    -webkit-animation: cruzeiro 45s 5s linear infinite;
-            animation: cruzeiro 45s 5s linear infinite;
+    -webkit-animation: cruzeiro 25s 5s linear infinite;
+            animation: cruzeiro 25s 5s linear infinite;
     -webkit-animation-direction: normal;
             animation-direction: normal;
     position: relative;
@@ -43,12 +43,12 @@
     }
     33%
     {
-        left: 400%;
+        left: 110%;
         transform: rotate(90deg);
     }
     100%
     {
-        left: 400%;
+        left: 110%;
         transform: rotate(90deg);
     }
 
@@ -80,12 +80,12 @@
     }
     33%
     {
-        left: 400%;
+        left: 110%;
         transform: rotate(90deg);
     }
     100%
     {
-        left: 400%;
+        left: 110%;
         transform: rotate(90deg);
     }
 }
@@ -106,8 +106,8 @@
     background-image: url('../imagens/klingons.png');
     background-repeat: no-repeat;
     transform: rotate(270deg);
-    -webkit-animation: invisivel 60s linear infinite;
-            animation: invisivel 60s linear infinite;
+    -webkit-animation: invisivel 25s linear infinite;
+            animation: invisivel 25s linear infinite;
     -webkit-animation-direction: normal;
             animation-direction: normal;
     position: relative;
@@ -132,12 +132,12 @@
         opacity: 0.1;
     }
     15%{
-        left: -800%;        
+        left: -120%;        
         top: -100%;
         opacity: 0.1;
     }
     100%{
-        left: -800%;        
+        left: -120%;        
         top: 1%;
         opacity: 0.1;
     }
@@ -160,12 +160,12 @@
         opacity: 0.1;
     }
     15%{
-        left: -800%;        
+        left: -120%;        
         top: -100%;
         opacity: 0.1;
     }
     100%{
-        left: -800%;        
+        left: -120%;        
         top: 1%;
         opacity: 0.1;
     }        

@@ -92,16 +92,16 @@
             animation-direction: normal;
     /*-webkit-transform: scale(2, 2);
             transform: scale(2, 2);*/
-    -webkit-animation-delay: 80s;
-    animation-delay: 80s;
+    -webkit-animation-delay: 10s;
+    animation-delay: 10s;
     position: relative;    
     fill: lightblue;
     opacity: 1;
 }
 
 @keyframes voa3 {
-    0% {transform: rotate(190deg); width: 20%; height: 20%;left:0px;}
-    80% {transform: rotate(195deg); width: 20%; height: 20%;top:1000px; left:-100px; }
+    0% {transform: rotate(190deg); width: 20%; height: 20%; left:0px;}
+    80% {transform: rotate(195deg); width: 20%; height: 20%; top:1000px; left:-100px; }
     81% {transform: rotate(45deg); width: 20%; height: 20%;} 
     100% {transform: rotate(45deg); width: 50%; height: 50%; top:-200px; left:800px;}
 }
