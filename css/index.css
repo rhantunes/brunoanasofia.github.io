@@ -322,6 +322,7 @@ body {
     /*background-color: rgba(0, 0, 0, 0.4);*/
     background: -webkit-linear-gradient(top,rgba(226,233,116,0.2),rgba(0,0,0,0.7));
     background: linear-gradient(top,rgba(226,233,116,0.2),rgba(0,0,0,0.7));
+    background: rgba(226,233,116,0.2);
 }
 
 .erro {
