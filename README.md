@@ -1,12 +1,12 @@
 # river-raid
-I developed this website for educational purpose.
+I developed this website for educational purposes.
 
 - HTML5
 - Canvas
 - CSS3
 - Bootstrap
 
-If you would like to participate on this project, send me an email to bruno.ramaral@gmail.com that I will add as colaborator.
+If you would like to participate in this project, send an email to bruno.ramaral@gmail.com then I will add you as colaborator.
 
 
 
